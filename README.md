@@ -8,4 +8,4 @@ This is my first website with mainly utilizing flexbox to achieve its appearence
 2. #b2355c = nav>active>background & hover & button
 3. #e3d6d6 = element
 4. #F9EBEA = text & background
-5. #131212 = text & nav>active text
+5. #131212 = header & text & nav>active text
