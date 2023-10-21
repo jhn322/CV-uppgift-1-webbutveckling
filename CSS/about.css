@@ -20,7 +20,7 @@ h1 {
 .about-container {
     height: auto;
     width: 55%;
-    min-width: 500px;
+    min-width: 300px;
     max-width: 600px;
     margin: auto;
     border-radius: 10px;
