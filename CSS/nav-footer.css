@@ -67,7 +67,7 @@
 }
 
 /* mobile layout */
-@media (max-width: 699px) {
+@media (max-width: 699px) and (min-width: 300px) {
     .nav-container {
         font-family: 'Josefin Sans', Arial, Helvetica, sans-serif;
     }
