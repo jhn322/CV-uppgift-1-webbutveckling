@@ -1,0 +1,74 @@
+/* font used universally on the website */
+* {
+    margin: 0px;
+    font-family: 'Josefin Sans', Arial, Helvetica, sans-serif;
+}
+
+/* background */
+body {
+    display: flex;
+    flex-direction: column;
+    background-color: #F9EBEA;
+}
+
+/* projekt headlines */
+h3 {
+    padding-bottom: 0.3rem;
+    font-family: 'Georama', Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+}
+
+/* styling for headline */
+.portfolio-1 h1 {
+    padding: 2rem;
+    text-align: center;
+    font-family: 'Georama', Arial, Helvetica, sans-serif;
+    font-size: 3rem;
+    color: #131212;
+}
+
+/* style of <a tag */
+.headline {
+    text-align: center;
+    text-decoration: none;
+    font-size: 1.6rem;
+    color: #131212;
+}
+
+/* hover effect on <a tag */
+.headline:hover {
+    transition: color 0.4s;
+    text-decoration: none;
+    color: #b2355c;
+}
+
+/* main box */
+.portfolio-1 {
+    height: auto;
+    width: 50%;
+    max-width: 1050px;
+    min-width: 300px;
+    margin: auto;
+    box-shadow: 3px 3px 8px #00000080;
+    background-color: #e3d6d6;
+}
+
+/* styling for paragraphs */
+.project-1 p {
+    margin-top: 0.3rem;
+    padding: 0.4rem 3rem 5rem 3rem;
+    text-align: center;
+    font-size: 1.1rem;
+    color: #131212;
+}
+
+/* image specifics */
+.image {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    background-size: cover;
+}
