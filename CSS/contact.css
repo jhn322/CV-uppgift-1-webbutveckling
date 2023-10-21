@@ -24,7 +24,7 @@ body {
 .contact-me {
     height: auto;
     width: 46%;
-    min-width: 450px;
+    min-width: 300px;
     max-width: 800px;
     margin: auto;
     border-radius: 10px;
