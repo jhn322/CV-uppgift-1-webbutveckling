@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Välkommen till CV-sidan för Johan Söderlund, här hittar du information om mina färdigheter och erfarenheter.">
+    <title>Home - My CV Frontpage</title>
+    <!-- Link to external stylesheet -->
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/nav-footer.css">
+    <!-- Font from Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Georama:wght@500;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <!-- Navbar -->
+    <nav class="nav-container">
+        <div class="nav">
+            <div class="nav-header">
+                <a href="index.html">
+                    <img src="Images/jhn-logo.png" alt="The site's logo" class="nav-logo">
+                </a>
+            </div>
+            <div class="nav">
+                <section class="nav-pages">
+                    <a href="index.html" class="home active">Home</a>
+                    <a href="about.html" class="about">About</a>
+                    <a href="contact.html" class="contact">Contact</a>
+                    <a href="cv.html" class="cv">CV</a>
+                    <a href="portfolio.html" class="portfolio">Portfolio</a>
+                </section>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Header -->
+    <header>
+
+        <!-- Welcomes to the page -->
+        <div class="welcome-header">
+            <h1>Välkommen till min CV-sida!</h1>
+        </div>
+
+        <!-- Container for start -->
+        <div class="start-container">
+            <!-- Main card 1 -->
+            <article class="start start-1">
+                <a href="about.html" class="about-headline">
+                    <h2>Om Mig</h2>
+                </a>
+                <!-- redirects to a google maps over Holmsund -->
+                <img src="images/holmsund.jpg" alt="An overview picture of the town Holmsund" class="start-image">
+                <section class="town-text-link">
+                    <a href="https://www.google.com/maps/place/913+31+Holmsund/@63.7050714,20.3482051,14.25z/data=!4m6!3m5!1s0x467c571d03ea7403:0xc2dbaaef33d8aea6!8m2!3d63.7073892!4d20.3639178!16zL20vMDN4cXFq?entry=ttu"
+                        target="_blank">
+                        <p>Klicka här för en karta över Holmsund</p>
+                    </a>
+                </section>
+            </article>
+
+            <!-- Main card 2 -->
+            <article class="start start-2">
+                <a href="cv.html" class="cv-headline">
+                    <h2>Mitt CV</h2>
+                </a>
+                <img src="images/cv.jpg" alt="A man sitting with a pen and CV on the table" class="start-image">
+                <p>Så här kan en arbetsintervju se ut</p>
+            </article>
+        </div>
+    </header>
+
+    <!-- Section -->
+    <section>
+
+        <a href="portfolio.html" class="project-headline">
+            <h2>Projekt</h2>
+        </a>
+
+        <br>
+
+        <!-- Container for cards -->
+        <div class="project-card-container">
+            <!-- cards with images, portfolio links and buttons -->
+            <article class="project-card project-card-1">
+                <h3>Metadata</h3>
+                <img src="images/config.jpg" alt="Collection image posters example"
+                    class="project-card-image project-card-image-1">
+                <a href="https://github.com/jhn322/PMM-Config/tree/main/Collections" target="_blank"><button
+                        class="button">Läs
+                        mer</button></a>
+            </article>
+
+            <article class="project-card project-card-2">
+                <h3>Overlays</h3>
+                <img src="images/overlays.jpg" alt="Overlay image icons example"
+                    class="project-card-image project-card-image-2">
+                <a href="https://github.com/jhn322/PMM-Config/tree/main/Overlays" target="_blank"><button
+                        class="button">Läs
+                        mer</button></a>
+            </article>
+
+            <article class="project-card project-card-3">
+                <h3>Boiler Room 1</h3>
+                <img src="images/uman.jpg" alt="Picture of Uman hotel Umeå"
+                    class="project-card-image project-card-image-3">
+                <a href="https://github.com/jhn322/Chas-Academy-Lektioner/tree/main/230915%20-%20Boiler%20Room"
+                    target="_blank"><button class="button">Läs mer</button></a>
+            </article>
+
+            <article class="project-card project-card-4">
+                <h3>Traffic Light</h3>
+                <img src="images/traffic-light.jpg" alt="A simple traffic light project"
+                    class="project-card-image project-card-image-4">
+                <a href="https://github.com/jhn322/Chas-Academy-Lektioner/tree/main/230921%20-%20Traffic%20Light"
+                    target="_blank"><button class="button">Läs mer</button></a>
+            </article>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-header">
+            <div class="footer-title">
+                Copyright &copy; Johan
+            </div>
+        </div>
+
+        <!-- Link to Github, LinkedIn, Mail in footer -->
+        <div class="footer-content">
+            <a href="contact.html">Kontakta Mig -</a>
+            <a href="https://github.com/jhn322" target="_blank">Github</a>
+            <a href="https://www.linkedin.com/" target="_blank">- LinkedIn -</a>
+            <a href="mailto:johan.soderlund@chasacademy.se" target="_blank">Mail</a>
+        </div>
+    </footer>
+</body>
+
+</html>
