@@ -1,0 +1,57 @@
+/* font used universally on the website */
+* {
+    margin: 0px;
+    font-family: 'Josefin Sans', Arial, Helvetica, sans-serif;
+}
+
+/* background */
+body {
+    display: flex;
+    flex-direction: column;
+    background-color: #F9EBEA;
+}
+
+h1 {
+    font-family: 'Georama', Arial, Helvetica, sans-serif;
+    color: #131212;
+}
+
+/* main box */
+.about-container {
+    height: auto;
+    width: 55%;
+    min-width: 300px;
+    max-width: 600px;
+    margin: auto;
+    border-radius: 10px;
+    box-shadow: 3px 3px 8px #00000080;
+    background-color: #e3d6d6;
+}
+
+/* styling for headline */
+.about-container, p {
+    text-align: center;
+    padding: 1rem;
+    font-size: 2.3rem;
+    color: #131212;
+}
+
+/* specific behavior for list and text */
+.about-text p {
+    display: flex;
+    font-size: 1.2rem;
+}
+
+/* some padding between the text and pictures */
+.about-text-2 {
+    padding-bottom: 4rem;
+}
+
+/* image specifics */
+.about-image {
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    border-radius: 10px;
+    background-size: cover;
+}
